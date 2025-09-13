@@ -7,5 +7,8 @@ public class ClasePrueba {
         System.out.println("------------------");
         var gerente = new Gerente("Ana", 1000, "Ventas");
         gerente.mostrarInformacion();
+
+        Jefe jefe = new Jefe("Carlos", 7777, 1234);
+        //jefe.mostrar();
     }
 }
